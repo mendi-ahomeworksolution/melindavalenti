@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Melinda Valenti - Call Center Application Manager & Product Admin</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77aaff 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            float: left;
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        header .highlight, header .current a {
+            color: #77aaff;
+            font-weight: bold;
+        }
+        header a:hover {
+            color: #77aaff;
+            font-weight: bold;
+        }
+        #showcase {
+            min-height: 400px;
+            background: url('https://source.unsplash.com/1600x900/?technology') no-repeat 0 -400px;
+            text-align: center;
+            color: #fff;
+        }
+        #showcase h1 {
+            margin-top: 100px;
+            font-size: 55px;
+            margin-bottom: 10px;
+        }
+        #showcase p {
+            font-size: 20px;
+        }
+        #main {
+            padding: 20px;
+            background: #fff;
+        }
+        #main h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 30px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight">Melinda</span> Valenti</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li class="current"><a href="#about">About Me</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="showcase">
+        <div class="container">
+            <h1>Call Center Application Manager & Product Admin</h1>
+            <p>Enhancing customer experiences through innovative technology and process improvement.</p>
+        </div>
+    </section>
+    <section id="main" class="container">
+        <h1 id="about">About Me</h1>
+        <p>I am a dedicated and results-driven professional passionate about driving business success by boosting efficiency, revenue, and implementing innovative technologies. With extensive experience in call center management, digital engagement, and process improvement, I am equipped to contribute to continued growth and success in any organization.</p>
+        <p>Currently, I serve as a Digital Engagement Strategist at A Home Work Solution, where I lead initiatives to enhance consumer experience through digital strategies, reducing customer effort and optimizing client expenses.</p>
+        
+        <h1 id="projects">Projects</h1>
+        <ul>
+            <li><a href="https://cunning-hawk-bcvfy1-dev-ed.my.site.com/UrsaMajorSolar/s/" target="_blank">Salesforce Playground - Ursa Major Solar</a></li>
+            <li><a href="https://parentingourparents.info/" target="_blank">Parenting Our Parents AI Chat</a></li>
+            <li><a href="https://www.linkedin.com/in/melinda-valenti-a657b619/" target="_blank">LinkedIn Profile</a></li>
+        </ul>
+        
+        <h1 id="contact">Contact</h1>
+        <p>You can reach me at:</p>
+        <p>Email: <a href="mailto:mendivalenti@msn.com">mendivalenti@msn.com</a></p>
+        <p>Phone: 515-865-8696</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/melinda-valenti-a657b619/" target="_blank">Melinda Valenti</a></p>
+    </section>
+    <footer>
+        <p>Melinda Valenti &copy; 2024</p>
+    </footer>
+</body>
+</html>
